@@ -30,7 +30,7 @@ public class Clock {
         double angleMins= ((2*Math.PI/60) * mins) - (Math.PI / 2);
 
         //draw the circle
-        for (double a = 0; a < 2 * Math.PI; a += 0.0001) {
+        for (double a = 0; a < 2 * Math.PI; a += 0.001) {
             int x = (int) (cx + r * Math.cos(a));
             int y = (int) (cy + r * Math.sin(a));
             clock.setRGB(x, y, Color.WHITE.getRGB());

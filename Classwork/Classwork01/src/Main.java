@@ -26,6 +26,7 @@ public class Main {
 
             }
         }
+
         File outputImage= new File("image.jpg");
         try{
             ImageIO.write(image,"jpg", outputImage);
